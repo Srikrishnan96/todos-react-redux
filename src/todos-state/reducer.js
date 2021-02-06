@@ -35,6 +35,7 @@ const getCompletedTasks = function(tasks) {
     }, []);
 }
 
+
 function tasksReducer(state = initialTaskListState, action) {
     if(action.type === REMOVE_TASK) {
         const deletedTask = TaskModel.deleteTask(action.payload.ID);
@@ -122,6 +123,7 @@ function tasksReducer(state = initialTaskListState, action) {
 
     return state;
 }
+
 
 function taskPathReducer(state = initialTaskPathState, action) {
     if(action.type === LAYER_UP) {

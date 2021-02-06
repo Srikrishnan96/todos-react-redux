@@ -20,6 +20,9 @@ input {
     margin: 20px;
     margin-right: 0px;
 }
+.layer {
+    user-select: none;
+}
 .layer-name {
     font-size: 20px;
 }
