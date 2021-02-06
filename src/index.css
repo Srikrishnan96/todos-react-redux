@@ -1,13 +1,75 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Barlow', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+    font-family: 'Barlow', sans-serif;
+    outline: none;
+    user-select: none;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+input {
+    font-family: 'Barlow', sans-serif;
+}
+
+
+
+.task-path {
+    margin: 20px;
+    margin-right: 0px;
+}
+.layer-name {
+    font-size: 20px;
+}
+.layer-divider {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+.task-list {
+    margin-left: 20px;
+}
+
+
+
+.task-container {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+.sub-task-maker {
+    border-color: #0275d8;
+    color: #0275d8;
+}
+.task-name-editor {
+
+}
+.task-remover {
+    border-color: #d9534f;
+    color: #d9534f;
+}
+
+
+
+.add-new-task {
+    margin-left: 20px;
+}
+.add-new-task input {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+    font-size: 20px;
+    outline: none;
+}
+.add-new-task button {
+    border-color: #5cb85c;
+    color: #5cb85c;
 }

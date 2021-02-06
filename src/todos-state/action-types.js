@@ -1,0 +1,10 @@
+export const REMOVE_TASK = "REMOVE_TASK";
+export const ADD_TASK = "ADD_TASK";
+export const SWITCH_TASK_STATUS = "SWITCH_TASK_STATUS";
+export const GET_TASK_LIST = "GET_TASK_LIST";
+export const ADD_NEW_SUB_TASK_REGION = "ADD_NEW_SUB_TASK_REGION";
+export const EDIT_TASK_NAME = "EDIT_TASK_NAME";
+export const EDIT_TASK_HASSUBTASKS = "EDIT_TASK_HASSUBTASKS";
+export const LAYER_UP = "LAYER_UP";
+export const GO_TO_LAYER = "GO_TO_LAYER";
+
